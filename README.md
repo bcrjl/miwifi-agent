@@ -22,6 +22,22 @@
 ## Docker部署
 
 ```bash
+docker pull bcrjl/miwifi-agent:latest
+
+docker run -d --name miwifi-agent \
+--restart always \
+-p 24317:24317 \
+-e BMW_URL=192.168.31.1 \
+-e BMW_PASSWORD=123456 \
+-e WEB_PASSWORD=123456 \
+miwifi-agent:latest
+```
+
+
+
+### 阿里镜像
+
+```bash
 docker pull registry.cn-hangzhou.aliyuncs.com/bcrjl/miwifi-agent:latest
 
 docker run -d --name miwifi-agent \
