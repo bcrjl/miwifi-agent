@@ -33,8 +33,6 @@ docker run -d --name miwifi-agent \
 miwifi-agent:latest
 ```
 
-
-
 ### 阿里镜像
 
 ```bash
@@ -65,3 +63,8 @@ miwifi-agent:latest
 - 系统状态对接；
 - 端口映射对接；
 - 搭建前端页面；
+
+## 技术交流群
+
+点击链接加入群聊【技术交流群】：http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=jwHE81NGbY8O5j8TP8M5LGzGEtrbwxW_&authKey=wVS0PK43RbHLpP7bBTrFujecnY6n5r5NxYWkrroCke2lq6fhT2tU%2FdZfd4%2FcB%2B25&noverify=0&group_code=518223284
+
